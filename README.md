@@ -17,7 +17,7 @@ Si el usuario elige retroceder a la carpeta anterior, se cambia al directorio pa
 
 Si el usuario elige salir, se sale del programa.
 
-Este script es solo un ejemplo básico, pero puede ser útil para aprender a navegar por los archivos y carpetas en un sistema Linux, y puede ser modificado o expandido según sus necesidades.
+Este script es solo un ejemplo básico, pero puede ser útil para aprender a navegar por los archivos , carpetas en un sistema Linux ejecutar scripts en bash python3 y Javascript(node), y puede ser modificado o expandido según sus necesidades.
 
 Dar permisos chmod +x * .sh
 ./menubase4.sh

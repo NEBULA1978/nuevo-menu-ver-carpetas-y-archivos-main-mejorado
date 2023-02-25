@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Lista de nombres de archivos de script a ejecutar
+scripts=(
+  copiar-sede-contador.sh
+  directorios-linux-sv4
+  ejercicioa-treas-cron.txt
+  menubase.sh
+  menubase-SV4.sh
+  menubase-SV4-1.sh
+  menubase-SV42.sh

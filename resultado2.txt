@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+function show_content {
+  local dir=$1
+  local option
+  while true; do
+    clear
+    echo "Directorio actual: $dir"
+    echo "Contenido:"
+    ls $dir

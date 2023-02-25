@@ -108,3 +108,16 @@ else
     fi
   fi
 fi
+
+# ¡Por supuesto! El script es un programa en bash que descarga una página web de https://www.vulnhub.com/ y muestra los nombres de las máquinas disponibles en esa página web.
+
+# Aquí está una descripción detallada de lo que hace el script paso a paso:
+
+#     Define una función "controlC" que se ejecuta cuando se pulsa Ctrl+C.
+#     Configura una trampa para la señal INT (Ctrl+C), de modo que si se pulsa Ctrl+C, la función controlC se ejecuta.
+#     Comprueba si el archivo log.log existe y, si no existe, descarga la página web y guarda el resultado en log.log.
+#     Define una función "show_machine_names" que muestra los nombres de las máquinas disponibles leyendo la información del archivo log.log2.
+#     Busca los nombres de las máquinas disponibles en la página web descargada y los guarda en un archivo llamado log.log2.
+#     Pregunta al usuario si desea ver los nombres de las máquinas. Si el usuario responde "s", muestra los nombres de las máquinas utilizando la función "show_machine_names".
+#     Si el usuario responde "s" para buscar nuevas máquinas, el script descarga la página web y comprueba si hay máquinas nuevas comparando con la versión anterior de log.log. Si hay nuevas máquinas, borra la versión anterior de log.log y descarga la página web nuevamente. Después de eso, pregunta al usuario el nombre de la máquina que desea buscar y muestra los resultados si la máquina existe.
+#     El script muestra si hay o no hay nuevas máquinas después de buscar una máquina específica.

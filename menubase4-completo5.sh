@@ -9,6 +9,9 @@ function show_content {
     echo "Directorio actual: $dir"
     echo "Contenido:"
     ls $dir
+    echo "Directorio Anterior: $cd .."
+    echo "Contenido:"
+    ls $cd ..
     read -p "¿Qué quieres hacer? (X = Entrar en carpeta, L = Leer archivo, E = Ejecutar archivo, R = Retroceder, C = Copiar, S = Salir): " option
     case $option in
       [Xx]) read -p "Escribe el nombre de la carpeta: " folder
